@@ -635,7 +635,9 @@ header .navbar .dropdown-menu a {
   transform: translateX(-50%);
   background: #007bff;
 }
-
+.office-img {
+  height:343px; 
+}
 .text-black {
   color: #000 !important;
 }
@@ -725,7 +727,9 @@ header .navbar .dropdown-menu a {
   background-color: #007bff;
   border-color: #007bff;
 }
-
+.office-img {
+  height:292px; 
+}
 }
 
 @media (max-width: 767px) {
@@ -735,6 +739,9 @@ header .navbar .dropdown-menu a {
   .owl-carousel.home-slider {
    
     display: none;
+  }
+  .office-img {
+    height:292px; 
   }
   .btn-group-lg>.btn, .btn-lg {
    
@@ -893,8 +900,11 @@ header .top-bar {
   .height1 .bd-example {
     display: block;
   }
+  .office-img {
+    height:292px; 
+  }
   .custom-tabs .tab-pane h2 {
-    font-size: 39px;
+    font-size: 35px;
     font-weight: 300;
     margin-top: 12px;
 }
@@ -1081,12 +1091,17 @@ display: none;
   }
   .owl-carousel.home-slider .slider-item .slider-text p {
    display: inline;
+   color:rgb(240, 234, 234);
+   font-size:23px;
+   text-shadow: 0 0 3px rgb(196, 195, 195), 0 0 5px rgb(137, 137, 138);
+
   }
   .owl-carousel.home-slider .slider-item .slider-text h1 {
     font-size: 42px;
-    color: #fff;
+    color: #2e3979;
     line-height: 1.2;
-    font-weight: 300;
+    font-weight: 600;
+    text-shadow: 0 0 3px rgb(196, 195, 195), 0 0 5px rgb(137, 137, 138);
   }
   .owl-carousel.home-slider .slider-item .slider-text {
     color: #fff;
