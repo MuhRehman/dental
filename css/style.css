@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 /* ----------------Pages-Style-start--=------------- */
+.pages-img {
+  height:300px;
+   width:700px; 
+}
 .footer-text {
   font-size: 44px;
 }
@@ -40,6 +44,10 @@ a {
     min-height: 150px;
     transform: translate3d(0px, -5.2142px, 0px);
   
+}
+.footer-logo1 {
+  height: 134px !important;
+  width: 300px !important;
 }
 .Content {
   margin-top: 92px;
@@ -1061,10 +1069,27 @@ display: none;
 .footer-text {
   font-size: 29px;
 }
+.img-area img{
+  border:3px solid navy;
+  width:100%;
+}
+.pages-img {
+  height:200px;
+   width:300px; 
+}
+.footer-logo {
+  height: 33px;
+  width: 33px;
+}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .footer-logo {
+    height: 33px;
+    width: 33px;
+  }
+
   .bar-text {
     font-size: 18px;
     padding: 32px;
