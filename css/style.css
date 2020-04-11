@@ -128,11 +128,16 @@ header .top-bar {
   background: #2475B0;
 }
 
+.mobile-a{
+border:1px solid white !important;
+padding:3px 12px 3px 12px;
+}
 header .top-bar a {
   color: #fff;
-  padding: 10px;
+  /* padding: 10px; */
   font-size: 13px;
   display: inline-block;
+ 
 }
 
 header .top-bar .cta-btn {
@@ -206,14 +211,26 @@ header .navbar {
   }
 }
 */
+
+.mobile-btn  {
+  display:none;
+}
+.desktop-btn {
+  display:black;
+}
+header .navbar .nav-link {
+font-size: 22px;
+font-weight: bolder;
+width: 133px;
+}
 header .navbar .nav-link.active {
   color: #007bff !important;
 }
 
 header .navbar .dropdown-menu {
-  font-size: 14px;
+  font-size: 21px;
   border-radius: 4px;
-  border: none;
+  border: 3px solid rgb(33, 5, 94);
   -webkit-box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.1);
 }
@@ -929,6 +946,13 @@ header .top-bar {
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+  .mobile-a{
+  margin-top: 6px;
+    }
+  .desktop-btn {
+    display:none;
+  }
   .height1 .bd-example {
     display: block;
   }
@@ -1145,14 +1169,14 @@ display: none;
     height: 400px;
   }
   .owl-carousel.home-slider .slider-item .slider-text p {
-   display: inline;
-   color:rgb(240, 234, 234);
-   font-size:23px;
-   text-shadow: 0 0 3px rgb(196, 195, 195), 0 0 5px rgb(137, 137, 138);
+   display: none;
+   color:rgb(172, 195, 209);
+   font-size:33px;
+   text-shadow: 0 0 3px rgb(14, 12, 12), 0 0 5px rgb(2, 2, 2);
 
   }
   .owl-carousel.home-slider .slider-item .slider-text h1 {
-    font-size: 42px;
+    font-size: 62px;
     color: #2e3979;
     line-height: 1.2;
     font-weight: 600;
